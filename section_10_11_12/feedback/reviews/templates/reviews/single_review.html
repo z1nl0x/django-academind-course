@@ -3,7 +3,7 @@
 {% block title %}Review Detail{% endblock %}
 
 {% block content %}
-    <h1></h1>
-    <p>Rating: </p>
-    <p></p>
+    <h1>{{ review.user_name }}</h1>
+    <p>Rating: {{ review.rating }}</p>
+    <p>{{ review.review_text }}</p>
 {% endblock %}
